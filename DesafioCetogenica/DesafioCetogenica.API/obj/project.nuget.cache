@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "7MJO8zboDXC/pgkgTFXdleizsYxc/9EKj5E8I81I0Z2FpwyZ8v/G942gXwF+UjZy7kujyBYiq2E0YB7Q0B3EyQ==",
+  "dgSpecHash": "Lk/hUZkYOTw617ZS4U/AbapGhkBGNTXilQY0u9UFtm7dWhli7Rbqa8hUulrsaEElS9B72Whm7APt3Nkz4ozvnw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\fgs_l\\OneDrive\\Área de Trabalho\\vania\\novo-backend-desafio\\DesafioCetogenica\\DesafioCetogenica.API\\DesafioCetogenica.API.csproj",
+  "projectFilePath": "C:\\Users\\fgs_l\\OneDrive\\Área de Trabalho\\vania\\psicologia-da-moda\\backend-DesafioCetogenica\\DesafioCetogenica\\DesafioCetogenica.API\\DesafioCetogenica.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\fgs_l\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.9\\microsoft.entityframeworkcore.6.0.9.nupkg.sha512",
     "C:\\Users\\fgs_l\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\6.0.9\\microsoft.entityframeworkcore.abstractions.6.0.9.nupkg.sha512",

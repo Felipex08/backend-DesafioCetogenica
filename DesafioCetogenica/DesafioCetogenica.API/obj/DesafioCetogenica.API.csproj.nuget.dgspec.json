@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\fgs_l\\OneDrive\\Área de Trabalho\\vania\\novo-backend-desafio\\DesafioCetogenica\\DesafioCetogenica.API\\DesafioCetogenica.API.csproj": {}
+    "C:\\Users\\fgs_l\\OneDrive\\Área de Trabalho\\vania\\psicologia-da-moda\\backend-DesafioCetogenica\\DesafioCetogenica\\DesafioCetogenica.API\\DesafioCetogenica.API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\fgs_l\\OneDrive\\Área de Trabalho\\vania\\novo-backend-desafio\\DesafioCetogenica\\DesafioCetogenica.API\\DesafioCetogenica.API.csproj": {
+    "C:\\Users\\fgs_l\\OneDrive\\Área de Trabalho\\vania\\psicologia-da-moda\\backend-DesafioCetogenica\\DesafioCetogenica\\DesafioCetogenica.API\\DesafioCetogenica.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\fgs_l\\OneDrive\\Área de Trabalho\\vania\\novo-backend-desafio\\DesafioCetogenica\\DesafioCetogenica.API\\DesafioCetogenica.API.csproj",
+        "projectUniqueName": "C:\\Users\\fgs_l\\OneDrive\\Área de Trabalho\\vania\\psicologia-da-moda\\backend-DesafioCetogenica\\DesafioCetogenica\\DesafioCetogenica.API\\DesafioCetogenica.API.csproj",
         "projectName": "DesafioCetogenica.API",
-        "projectPath": "C:\\Users\\fgs_l\\OneDrive\\Área de Trabalho\\vania\\novo-backend-desafio\\DesafioCetogenica\\DesafioCetogenica.API\\DesafioCetogenica.API.csproj",
+        "projectPath": "C:\\Users\\fgs_l\\OneDrive\\Área de Trabalho\\vania\\psicologia-da-moda\\backend-DesafioCetogenica\\DesafioCetogenica\\DesafioCetogenica.API\\DesafioCetogenica.API.csproj",
         "packagesPath": "C:\\Users\\fgs_l\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\fgs_l\\OneDrive\\Área de Trabalho\\vania\\novo-backend-desafio\\DesafioCetogenica\\DesafioCetogenica.API\\obj\\",
+        "outputPath": "C:\\Users\\fgs_l\\OneDrive\\Área de Trabalho\\vania\\psicologia-da-moda\\backend-DesafioCetogenica\\DesafioCetogenica\\DesafioCetogenica.API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

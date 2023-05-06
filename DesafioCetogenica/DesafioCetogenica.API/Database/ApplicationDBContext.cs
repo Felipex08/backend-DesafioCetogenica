@@ -10,9 +10,9 @@ namespace DesafioCetogenica.API.Database
     public class ApplicationDBContext : DbContext
     {
         public ApplicationDBContext(DbContextOptions<ApplicationDBContext> options) : base(options) { }
-
         public virtual DbSet<td_dados_formulario> td_dados_formulario { get; set; }
         public virtual DbSet<tb_dados_instagram> tb_dados_instagram { get; set; }
+        public virtual DbSet<tb_dados_psicologia_da_moda> tb_dados_psicologia_da_moda { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
@@ -37,6 +37,12 @@ namespace DesafioCetogenica.API.Database
             modelBuilder.Entity<tb_dados_instagram>().Property(p => p.nome).HasColumnType("varchar(100)");
             modelBuilder.Entity<tb_dados_instagram>().Property(p => p.email).HasColumnType("varchar(100)");
             modelBuilder.Entity<tb_dados_instagram>().Property(p => p.telefone).HasColumnType("varchar(100)");
+
+            modelBuilder.Entity<td_dados_formulario>().ToTable("tb_dados_psicologia_da_moda");
+            modelBuilder.Entity<td_dados_formulario>().HasKey(p => p.id);
+            modelBuilder.Entity<td_dados_formulario>().Property(p => p.nome).HasColumnType("varchar(100)");
+            modelBuilder.Entity<td_dados_formulario>().Property(p => p.telefone).HasColumnType("varchar(100)");
+            modelBuilder.Entity<td_dados_formulario>().Property(p => p.email).HasColumnType("varchar(100)");
         }
     }
 
@@ -46,7 +52,6 @@ namespace DesafioCetogenica.API.Database
         public string nome { get; set; }
         public string telefone { get; set; }
         public string email { get; set; }
-
     }
 
     public class tb_dados_instagram
@@ -56,5 +61,13 @@ namespace DesafioCetogenica.API.Database
         public string nome { get; set; }
         public string email { get; set; }
         public string telefone { get; set; }
+    }
+
+    public class tb_dados_psicologia_da_moda
+    {
+        public int id { get; set; }
+        public string nome { get; set; }
+        public string telefone { get; set; }
+        public string email { get; set; }
     }
 }
