@@ -97,7 +97,7 @@ public class FormularioController : ControllerBase
 
     //PÁGINA DE FORMULÁRIO DA PSICOLOGIA DA MODA
 
-    [HttpPost("InsereDadosFormulario")]
+    [HttpPost("InsereDadosFormularioPsicologiaDaModa")]
     public ActionResult<StatusResult> InsereDadosFormularioPsicologiaDaModa(ParamInsereDadosDTO param)
     {
         var ret = new StatusResult();
