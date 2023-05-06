@@ -94,4 +94,38 @@ public class FormularioController : ControllerBase
             return StatusCode(500, ret);
         }
     }
+
+    //PÁGINA DE FORMULÁRIO DA PSICOLOGIA DA MODA
+
+    [HttpPost("InsereDadosFormulario")]
+    public ActionResult<StatusResult> InsereDadosFormularioPsicologiaDaModa(ParamInsereDadosDTO param)
+    {
+        var ret = new StatusResult();
+
+        try
+        {
+            if (param.Nome != null && param.Email != null)
+            {
+                var row = new tb_dados_psicologia_da_moda();
+                row.nome = param.Nome;
+                row.telefone = param.Telefone;
+                row.email = param.Email;
+
+                _applicationDBContext.tb_dados_psicologia_da_moda.Add(row);
+                _applicationDBContext.SaveChanges();
+            }
+            else
+            {
+                throw new Exception("É necessário preencher o nome e o e-mail!");
+            }
+
+            return Ok(ret);
+        }
+        catch (Exception e)
+        {
+            ret.Sucesso = false;
+            ret.Mensagem = e.Message;
+            return StatusCode(500, ret);
+        }
+    }
 }
