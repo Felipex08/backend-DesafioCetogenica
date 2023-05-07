@@ -1,6 +1,7 @@
 ﻿using DesafioCetogenica.API.Database;
 using DesafioCetogenica.API.DTOs;
 using Microsoft.AspNetCore.Mvc;
+using System.Text;
 
 namespace DesafioCetogenica.API.Controllers;
 
@@ -120,6 +121,29 @@ public class FormularioController : ControllerBase
             }
 
             return Ok(ret);
+        }
+        catch (Exception e)
+        {
+            ret.Sucesso = false;
+            ret.Mensagem = e.Message;
+            return StatusCode(500, ret);    
+        }
+    }
+
+    [HttpPost("DownloadPDF")]
+    public ActionResult<StatusResult> DownloadPDF()
+    {
+        var ret = new StatusResult();
+
+        try
+        {
+            var fileName = "Teste";
+            var filePath = @"wwwroot/Teste.pdf";
+            var fileType = "application/pdf";
+
+            var arquivo = System.IO.File.ReadAllBytes(filePath);
+
+            return File(arquivo, fileType, fileName);
         }
         catch (Exception e)
         {

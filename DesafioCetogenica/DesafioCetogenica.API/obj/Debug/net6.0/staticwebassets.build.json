@@ -1,11 +1,37 @@
 {
   "Version": 1,
-  "Hash": "fAvBaMmlEnXStZD2TRG8LYky/fN0s66/IvKGPVhfnFA=",
+  "Hash": "GZ/2I9PHthIaIj9z7q4aI9AZB+Ans/UZI1kgCBdIicU=",
   "Source": "DesafioCetogenica.API",
   "BasePath": "_content/DesafioCetogenica.API",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
-  "Assets": []
+  "DiscoveryPatterns": [
+    {
+      "Name": "DesafioCetogenica.API\\wwwroot",
+      "Source": "DesafioCetogenica.API",
+      "ContentRoot": "C:\\Users\\fgs_l\\OneDrive\\Área de Trabalho\\vania\\psicologia-da-moda\\backend-DesafioCetogenica\\DesafioCetogenica\\DesafioCetogenica.API\\wwwroot\\",
+      "BasePath": "_content/DesafioCetogenica.API",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\fgs_l\\OneDrive\\Área de Trabalho\\vania\\psicologia-da-moda\\backend-DesafioCetogenica\\DesafioCetogenica\\DesafioCetogenica.API\\wwwroot\\Teste.pdf",
+      "SourceId": "DesafioCetogenica.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\fgs_l\\OneDrive\\Área de Trabalho\\vania\\psicologia-da-moda\\backend-DesafioCetogenica\\DesafioCetogenica\\DesafioCetogenica.API\\wwwroot\\",
+      "BasePath": "_content/DesafioCetogenica.API",
+      "RelativePath": "Teste.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Teste.pdf"
+    }
+  ]
 }
