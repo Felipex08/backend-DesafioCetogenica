@@ -38,11 +38,11 @@ namespace DesafioCetogenica.API.Database
             modelBuilder.Entity<tb_dados_instagram>().Property(p => p.email).HasColumnType("varchar(100)");
             modelBuilder.Entity<tb_dados_instagram>().Property(p => p.telefone).HasColumnType("varchar(100)");
 
-            modelBuilder.Entity<td_dados_formulario>().ToTable("tb_dados_psicologia_da_moda");
-            modelBuilder.Entity<td_dados_formulario>().HasKey(p => p.id);
-            modelBuilder.Entity<td_dados_formulario>().Property(p => p.nome).HasColumnType("varchar(100)");
-            modelBuilder.Entity<td_dados_formulario>().Property(p => p.telefone).HasColumnType("varchar(100)");
-            modelBuilder.Entity<td_dados_formulario>().Property(p => p.email).HasColumnType("varchar(100)");
+            modelBuilder.Entity<tb_dados_psicologia_da_moda>().ToTable("tb_dados_psicologia_da_moda");
+            modelBuilder.Entity<tb_dados_psicologia_da_moda>().HasKey(p => p.id);
+            modelBuilder.Entity<tb_dados_psicologia_da_moda>().Property(p => p.nome).HasColumnType("varchar(100)");
+            modelBuilder.Entity<tb_dados_psicologia_da_moda>().Property(p => p.telefone).HasColumnType("varchar(100)");
+            modelBuilder.Entity<tb_dados_psicologia_da_moda>().Property(p => p.email).HasColumnType("varchar(100)");
         }
     }
 
