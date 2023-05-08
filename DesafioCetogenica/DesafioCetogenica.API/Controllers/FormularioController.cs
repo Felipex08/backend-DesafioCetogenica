@@ -130,7 +130,7 @@ public class FormularioController : ControllerBase
         }
     }
 
-    [HttpPost("DownloadPDF")]
+    [HttpGet("DownloadPDF")]
     public ActionResult<StatusResult> DownloadPDF()
     {
         var ret = new StatusResult();
